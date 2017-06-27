@@ -1,0 +1,145 @@
+*{
+    margin:0;padding:0;
+}
+body{
+    font-family:'Microsoft YaHei';
+    background:#dedede;
+}
+/*顶栏*/
+header{
+	position:relative;
+    height:60px;
+	background:#333;
+}
+header h1 img{
+	padding-left:20px;
+	height:58px;
+}
+header ul{
+	position:absolute;top:0;right:20px;
+}
+header ul li{
+	text-align:center;
+	width:60px;
+	display:block;
+	float:left;
+	padding:20px 10px;
+}
+header ul li a{
+	text-decoration:none;
+	color:white;
+	font-size:12px;
+}
+header ul li:hover{
+	border-bottom:1px solid red;
+	background:#474747;
+	border-radius:3px;
+}
+/*文章布局通用*/
+.article1{
+	background:white;
+	margin:20px;
+	padding:20px;
+	border-right:solid rgba(0,0,0,.5);
+	border-bottom:solid rgba(0,0,0,.5);
+}
+.article1-content{
+	margin-top:10px;
+	font-size:15px;
+	line-height:1.5em;
+	text-indent: 2em;
+}
+.article1 h2,h3{
+	line-height:2em;
+}
+.article1-color-gray{
+	color:gray;
+}
+/*无序列表*/
+.ul-1{
+	padding:30px;
+}
+/*图片列表*/
+.div-img{
+	margin:10px 10px 10px 30px;
+	padding:5px;
+	border:solid 1px rgba(0,0,0,.25);
+	width:150px;
+	height:150px;
+	text-align:center;
+}
+/*有序列表*/
+.ol-1{
+	margin:10px 10px 10px 30px;
+}
+/*表格属性*/
+.table1{
+	width:100%;
+	text-align:left;
+	border:solid 1px black;
+	border-collapse:collapse;
+}
+.table1 th{
+	background-color:gray;
+	color:white;
+	padding:3px 3px 3px 3px;
+	border:1px solid black;
+}
+.table1 td{
+	border:solid 1px black;
+	padding:3px 3px 3px 3px;
+}
+.table1-tr3{
+	background-color:gray;
+}
+/*侧栏*/
+.aside1{
+	border-left:3px solid #ccc;
+	padding:7px;
+}
+.input-email{
+	line-height:2em;
+	margin-top :20px;
+	margin-right:40%;
+	text-align:right;
+}
+.sex{
+	margin-top :20px;
+	margin-right:46.7%;
+	text-align:right;
+}
+.city{
+	margin-top :20px;
+	margin-right:47.6%;
+	text-align:right;
+}
+.hobbies{
+	margin-top:20px;
+	margin-right:39%;
+	text-align:right;
+}
+
+.input-selfintroduce{
+	margin-top:20px;
+	margin-right:22%;
+	text-align:right;
+}
+.submitButton {
+    margin-top:20px;
+	background: #128fdc;
+    border: medium none;
+    border-radius: 10px;
+    color: white;
+    font-size: 19px;
+    height: 40px;
+    width: 100%;
+}
+.copyright{
+	background: black;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+	color: white;
+    font-size: 14px;
+    text-align: center;
+}
